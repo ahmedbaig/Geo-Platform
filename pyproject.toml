@@ -1,0 +1,10 @@
+[project]
+name = "geo-platform"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "pypgstac[psycopg]>=0.10.0",
+    "pystac>=1.15.2",
+    "rio-cogeo>=7.0.3",
+]
